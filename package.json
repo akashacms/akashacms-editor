@@ -1,0 +1,69 @@
+{
+  "author": {
+    "name": "David Herron",
+    "email": "david@davidherron.com",
+    "url": "http://davidherron.com"
+  },
+  "name": "akashacms-editor",
+  "main": "app.js",
+  "keywords": [
+    "content management system",
+    "cms",
+    "static site generator",
+    "static file server",
+    "web development",
+    "build and deployment",
+    "renderer",
+    "templating",
+    "templates",
+    "website",
+    "website builder",
+    "blog",
+    "akashacms"
+  ],
+  "description": "An editor for the AkashaCMS content management system",
+  "homepage": "http://akashacms.com/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akashacms/akashacms-editor.git"
+  },
+  "version": "0.4.0",
+  "engines": {
+    "node": ">=0.10.1"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "async": ">=0.1.22",
+    "body": "*",
+    "mahabhuta": "*",
+    "cheerio": "*",
+    "ejs": ">=0.8.3",
+    "express": "^4.10.3",
+    "body-parser": "*",
+    "basic-auth": "*",
+    "formidable": "*",
+    "kernel": ">=0.1.3",
+    "less": ">=1.3.0",
+    "log4js": "*",
+    "fs-extra": ">=0.0.1",
+    "globfs": "*",
+    "mime": "*",
+    "minify": ">=0.1.8",
+    "node-zip": "*",
+    "oembed": ">=0.1.0",
+    "markdown-it": ">= 3.0.2",
+    "request": "*",
+    "sightmap": ">=0.0.0",
+    "ssh2sync": "*",
+    "rss": "*",
+    "sseasy": "*",
+    "yfm": "*",
+    "archiver": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+  }
+}
